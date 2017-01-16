@@ -1,0 +1,16 @@
+*.swp
+*.o
+*.exe
+CoRoSensorUI
+*.dll
+*.pro.*
+Makefile*
+[dD]ebug/
+[rR]elease/
+*.Debug
+*.Release
+*~
+*.csv
+ui_*.*
+moc_*.*
+qrc_*.*

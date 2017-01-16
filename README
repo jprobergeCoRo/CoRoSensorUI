@@ -1,0 +1,3 @@
+Note: pthreadGC2.dll is needed mathgl, which is built with an older gcc.  The newer gcc use libwinpthread-1.dll, which
+is the same thing, but has a different name.  I copied the dll over and renamed it to pthreadGC2.dll and things seem to
+work.  If you had problems with this, know that this was done!
