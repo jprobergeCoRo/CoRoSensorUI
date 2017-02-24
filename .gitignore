@@ -14,3 +14,7 @@ Makefile*
 ui_*.*
 moc_*.*
 qrc_*.*
+
+build
+Build
+BUILD
