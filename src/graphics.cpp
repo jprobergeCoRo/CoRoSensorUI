@@ -154,7 +154,7 @@ void MainWindow::updateGraphStatic()
         }
 
         mglGraph *g = staticGraphs[f].graph;
-        g->SetRanges(0, 6, 0, 4, -800, staticGraphs[f].maxRange + 800);
+        g->SetRanges(0, 3, 0, 6, -800, staticGraphs[f].maxRange + 800);
 
         // Interpolate the data for the graph to look nicer
         mglData interpolated = staticGraphs[f].data.Resize((FINGER_STATIC_TACTILE_ROW + 2) * 4, (FINGER_STATIC_TACTILE_COL + 2) * 4);
